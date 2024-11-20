@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMULARIO ALTA MASCOTAS</title>
+    </head>
+<body>
+    <h1>Formualrio Alta de Mascotas by Fernando Pernia Lobo</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Datos Cliente</legend>
+        <div class="Caja-Datos">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nom" id="nombre" placeholder="Introduce tu nombre" required />
+        </div>
+        <div class="Caja-Datos">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="ape" id="apellidos" placeholder="Introduce tus Apellidos" required />
+        </div>
+        <div class="Caja-Datos">
+            <label for="Direccion">Direccion Postal</label>
+            <input type="text" name="dir" id="direccion" placeholder="Introduce tu direccion postal" required />
+        </div>
+        <div class="Caja-Datos">
+            <label for="dni">DNI</label>
+            <input type="text" name="dni" id="dni" placeholder="Introduce tu DNI" required />
+        </div>
+        <div class="Caja-Datos">
+            <input type="radio" id="hombre" name="sexo" value="Hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="Mujer" name="sexo" value="Mujer">
+            <label for="mujer">Mujer</label>
+        </div>
+            <div class="Caja-Datos">
+            <label for="correo">Correo Electronico</label>
+            <input type="email" name="email" id="correo" placeholder="Introduce tu correo electronico" required />
+          </div>
+        <div class="Caja-Datos">
+            <label for="tipomasc">Tipo de Mascota</label>
+            <select id="tipomasc" name="tipmasc">
+                <option value="perro">Perro</option>
+                <option value="conejo">Conejo</option>
+                <option value="gato">Gato</option>
+                <option value="pajaro">Pajaro</option>
+            </select>
+        </div>
+        <div class="Caja-Datos">
+            <label for="fecnac">Fecha Nacimiento Mascota</label>
+            <input type="date" name="fecnac" id="fecnac" placeholder="fecha correcta" required />
+          </div>
+        </fieldset>
+
+        <button type="submit">Enviar Formulario</button>
+        <button type="reset">Limpiar datos Formulario</button>
+    </form>       
+
+</body>
+</html>
